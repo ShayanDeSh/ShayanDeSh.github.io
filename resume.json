@@ -1,0 +1,290 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Shayan Shafaghi",
+    "label": "Software Engineer",
+    "image": "./img/avatar.jpg",
+    "email": "shayandesh@gmail.com",
+    "url": "https://shayandesh.github.io",
+    "summary": "I started coding as a child and I never stopped afterward. I recived my bachelor from Amirkabir University of Technology in Computer Engineering. I'm intrested in Distributed Systems, Computer Graphic and Complex Networks. I also enjoy studying mathematics. I spend most of my time building highly scalable distributed systems. I spend most of my freetime playing violin, chess, videogames and watching movies",
+    "location": {
+      "city": "Tehran",
+      "countryCode": "IR",
+      "region": "Tehran"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "ShayanDeSh",
+        "url": "https://twitter.com/shayandesh"
+      },
+      {
+        "network": "Github",
+        "username": "NothingRealm",
+        "url": "https://github.com/NothingRealm"
+      },
+      {
+        "network": "Linkedin",
+        "username": "Shayan Shafaghi",
+        "url": "https://www.linkedin.com/in/shayan-shafaghi/"
+      },
+      {
+        "network": "Spotify",
+        "username": "ShayanDeSh",
+        "url": "https://open.spotify.com/user/qii2i5cnvcqe3qps6x69zylqb?si=b1997c76edff4395"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "medad-ai",
+      "location": "Tehran, Tehran",
+      "description": "A great startup around AI, trying to build highly scalable search as service and recommendation as service",
+      "position": "Software Engineer",
+      "url": "http://medad-ai.ir",
+      "startDate": "2021-04-01",
+      "summary": "I'm responsible for building distributed and scalable services using cloud architecture patterns and also interacting with AI team to build services,",
+      "highlights": [
+          "Designed and implemented a real-time audio and video processing pipeline using micro-service Architecture",
+          "Used redis and redis-stream as message queues between our services",
+          "Deployed and managed Traefik as API gateway",
+          "Deployed minio as S3 Storage",
+          "Designed and implemented search and recommendation service on the result of the pipeline",
+          "Bootstrapped a k8s cluster on our own vpc",
+          "Set up monitoring service using prometheus and grafana"
+      ]
+    },
+    {
+      "name": "Wishwork",
+      "location": "Tehran, Tehran",
+      "description": "A startup around building softwares",
+      "position": "CTO",
+      "url": "http://wishwork.org",
+      "startDate": "2020-07-01",
+      "endDate": "2021-04-01",
+      "summary": "I was responsible for managing a team of engineers and projects through a customized scrum pattern",
+      "highlights": [
+          "Designed and implemented multiple web applications using microservice pattern and ddd",
+          "Deployed CI/CD lines using gitlab-ci and ansible",
+          "Set up sprint sessions and planed for future goals and the way to achieve them",
+          "Taught my colleagues about software engineering process, how to write code with python and how to work with different databases",
+          "Helped to Clarify our vision and mission",
+          "Helped on market research and competitor analysis"
+      ]
+    },
+    {
+      "name": "Alibaba Travels",
+      "location": "Tehran, Tehran",
+      "description": "A great company around selling tranportation tickets and reserving hotel",
+      "position": ".Net Developer",
+      "url": "http://alibaba.ir",
+      "startDate": "2019-10-01",
+      "endDate": "2020-03-01",
+      "highlights": [
+          "Learned about .net core and C# and entity framework",
+          "Learned about scrum and agile methodologies",
+          "Learned about docker and k8s"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Amirkabir University of Technology ",
+      "position": "Instructor, Fundamental of Programming lab",
+      "startDate": "2021-08",
+      "summary": "Instructor of Fundamental of Programming lab, under supervision of  Dr. Hossein Zeinali"
+    },
+    {
+      "organization": "Amirkabir University of Technology ",
+      "position": "Instructor, Introduction to linux",
+      "url": "https://github.com/linuxfestival/introduction-to-linux-resources",
+      "startDate": "2020-02",
+      "endDate": "2020-02",
+      "summary": "I was Instructor of Introduction to linux which is the main part of Amirkabir's linux festival which is held every year"
+    },
+    {
+      "organization": "Amirkabir University of Technology ",
+      "position": "Teaching Assistant, Advanced Programming",
+      "startDate": "2019-02",
+      "endDate": "2019-06",
+      "summary": "Teaching Assistant of Advanced Programming, under the supervision of  Dr. Amir Kalbasi. I was responsible for designing and grading assignments and projects, providing extra educational material."
+    },
+    {
+      "organization": "Amirkabir University of Technology ",
+      "position": "Teaching Assistant, Signal and Systems",
+      "startDate": "2020-09",
+      "endDate": "2020-01",
+      "summary": "Teaching Assistant of Advanced Programming, under the supervision of  Dr. Mehdi Rasti. I was responsible for designing and grading assignments and projects, providing extra educational material."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Amirkabir University of Technology",
+      "url": "http://aut.ac.ir",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2017-09-01",
+      "score": "17.87/20.00",
+      "endDate": "2021-07-01",
+      "courses": [
+        "Fundamental of Programming",
+        "Advanced Programming",
+        "Data Structures",
+        "Algorithm Design",
+        "Linear Algebra",
+        "Database Design",
+        "Information Retrieval",
+        "Data Mining",
+        "Software Engineering",
+        "Computer Architecture",
+        "Compiler Design",
+        "Programming Languages",
+        "Computational Inteligence",
+        "Artificial Inteligence",
+        "Signals & Systems",
+        "Statistics",
+        "Multicore Programming",
+        "Information Security",
+        "Data Comunication",
+        "Interface Circuit Design",
+        "Microprocessor and Assembly Language",
+        "Operating Systems"
+      ]
+    },
+    {
+      "institution": "Allameh Tabatabaei",
+      "area": "Math & Physics",
+      "studyType": "Diploma",
+      "startDate": "2013-06-01",
+      "endDate": "2017-06-01",
+      "score": "19.38/20.00"
+      
+  }
+  ],
+  "awards": [
+    {
+      "title": "Placed among top 0.2% of the students in the Iranian University Entrance Exam",
+      "date": "2017-06-01",
+      "summary": "Ranked 289 in the Iranian University Entrance Exam"
+    },
+    {
+      "title": "Qualified for Direct Admission to graduate school (M.Sc.) of Computer Engineering",
+      "date": "2021-03-01",
+      "summary": "Qualified for Direct Admission to graduate school (M.Sc.) of Computer Engineering, Amirkabir University of Technology, without taking the Nationwide University Entrance Exam for M.Sc"
+    }
+  ],
+  "skills": [
+    {
+        "name": "Industrial Knowledge",
+        "keywords": [
+            "Distributed Systems",
+            "Computer Graphic",
+            "Machine Learning",
+            "Linear Algebra",
+            "Statistics",
+            "Product Management"
+        ]
+    },
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Rust",
+        "C",
+        "Python",
+        "Go",
+        "Haskell",
+        "Java",
+        "C#",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "Kubernetese",
+        "Docker",
+        "Linux System Administration",
+        "Ansible",
+        "GitlabCI",
+        "Github Actions",
+        "KVM",
+        "LXC",
+        "LXD",
+        "Nginx",
+        "Traefik",
+        "HaProxy"
+      ]
+    },
+    {
+      "name": "Database",
+      "keywords": [
+          "Postgresql",
+          "Mysql",
+          "Mongodb",
+          "Redis"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Bilingual Proficiency"
+    },
+    {
+      "language": "Persian",
+      "fluency": "Native"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Chess"
+    },
+    {
+      "name": "Violin"
+    },
+    {
+      "name": "Video Games"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Gandalf",
+      "description": "Gandolf is an implemention of Raft algorithm which can be used to bring consensus over any database.",
+      "highlights": [
+        "Cosnsisted of a redis like key-value store and a consensus module",
+        "Used Event-Driven Architecture for desinging system",
+        "Can bring consensu to any database"
+      ],
+      "keywords": [
+        "Rust",
+        "Raft",
+        "Consensus",
+        "Database"
+      ],
+      "startDate": "2021-06-01",
+      "url": "https://github.com/NothingRealm/gandalf",
+      "type": "application"
+    },
+    {
+      "name": "Oira",
+      "description": "Oira is a flask like dispatcher with the mindset to keep everything simple and avoiding third parties as much as we can.",
+      "highlights": [
+        "A simple dispatcher writen in python from scratch",
+        "Built to develope microservices with"
+      ],
+      "keywords": [
+        "Python",
+        "Dispatcher",
+        "WSGI"
+      ],
+      "startDate": "2020-09-01",
+      "url": "https://github.com/NothingRealm/oira",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2021-11-02T21:46:00"
+  }
+}
