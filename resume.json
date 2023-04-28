@@ -6,11 +6,11 @@
     "image": "./img/avatar.jpg",
     "email": "shayandesh@gmail.com",
     "url": "https://shayandesh.github.io",
-    "summary": "I started coding as a child and I never stopped afterward. I recived my bachelor from Amirkabir University of Technology in Computer Engineering. I'm intrested in Distributed Systems, Computer Graphic and Complex Networks. I also enjoy studying mathematics. I spend most of my time building highly scalable distributed systems. I spend most of my freetime playing violin, chess, videogames and watching movies",
+    "summary": "I started coding as a child and I never stopped afterward. I recived my bachelor from Amirkabir University of Technology in Computer Engineering. I'm intrested in Distributed Systems and Edge Computing. I also enjoy studying mathematics. I spend most of my time building highly scalable distributed systems. I spend most of my freetime playing violin, chess, videogames and watching movies.",
     "location": {
-      "city": "Tehran",
-      "countryCode": "IR",
-      "region": "Tehran"
+      "city": "Toronto",
+      "countryCode": "CA",
+      "region": "Ontario"
     },
     "profiles": [
       {
@@ -43,15 +43,22 @@
       "position": "Software Engineer",
       "url": "http://medad-ai.ir",
       "startDate": "2021-04-01",
-      "summary": "I'm responsible for building distributed and scalable services using cloud architecture patterns and also interacting with AI team to build services,",
+      "endDate": "2022-08-01",
+      "summary": "I was responsible for building distributed and scalable services using cloud architecture patterns and also interacting with AI team to build services,",
       "highlights": [
-          "Designed and implemented a real-time audio and video processing pipeline using micro-service Architecture",
-          "Used redis and redis-stream as message queues between our services",
-          "Deployed and managed Traefik as API gateway",
-          "Deployed minio as S3 Storage",
-          "Designed and implemented search and recommendation service on the result of the pipeline",
-          "Bootstrapped a k8s cluster on our own vpc",
-          "Set up monitoring service using prometheus and grafana"
+           " Bootstrapped a k8s cluster using Kubespray",
+           " Distributed k8s between two datacenters",
+           " Designed VPC over two datacenters",
+           " Designed and implemented a real-time audio and video processing pipeline using micro-service Architecture",
+           " Designed and implemented search and recommendation as a service on the result of the pipeline",
+           " Designed a real-time billing service using timescale-db",
+           " Designed a user tracker service in Rust language",
+           " Used redis and redis-stream as message queues between our services",
+           " Designed rqueue (reliable queue) with redis",
+           " Set up monitoring service using prometheus-operator and grafana",
+           " Setup log management using fluentd, fluentbit, Elasticsearch and kibana",
+           " Deployed and managed Traefik as API gateway",
+           " Deployed minio as S3 Storage"
       ]
     },
     {
@@ -89,35 +96,56 @@
   ],
   "volunteer": [
     {
+      "organization": "University of Toronto, Computer Science ",
+      "position": "Teaching Assistant, Software Tools and Systems Programming",
+      "startDate": "2023-01",
+      "endDate": "2023-04"
+    },
+    {
+      "organization": "Amirkabir University of Technology ",
+      "position": "Instructor, Advanced Programming lab",
+      "startDate": "2022-03",
+      "endDate": "2022-07"
+    },
+    {
       "organization": "Amirkabir University of Technology ",
       "position": "Instructor, Fundamental of Programming lab",
       "startDate": "2021-08",
-      "summary": "Instructor of Fundamental of Programming lab, under supervision of  Dr. Hossein Zeinali"
+      "endDate": "2022-02"
     },
     {
       "organization": "Amirkabir University of Technology ",
       "position": "Instructor, Introduction to linux",
       "url": "https://github.com/linuxfestival/introduction-to-linux-resources",
       "startDate": "2020-02",
-      "endDate": "2020-02",
-      "summary": "I was Instructor of Introduction to linux which is the main part of Amirkabir's linux festival which is held every year"
+      "endDate": "2020-02"
     },
     {
       "organization": "Amirkabir University of Technology ",
       "position": "Teaching Assistant, Advanced Programming",
       "startDate": "2019-02",
-      "endDate": "2019-06",
-      "summary": "Teaching Assistant of Advanced Programming, under the supervision of  Dr. Amir Kalbasi. I was responsible for designing and grading assignments and projects, providing extra educational material."
+      "endDate": "2019-06"
     },
     {
       "organization": "Amirkabir University of Technology ",
       "position": "Teaching Assistant, Signal and Systems",
       "startDate": "2020-09",
-      "endDate": "2020-01",
-      "summary": "Teaching Assistant of Advanced Programming, under the supervision of  Dr. Mehdi Rasti. I was responsible for designing and grading assignments and projects, providing extra educational material."
+      "endDate": "2020-01"
     }
   ],
   "education": [
+    {
+      "institution": "University of Toronto",
+      "url": "https://www.utoronto.ca/",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "Master of Science",
+      "startDate": "2023-01-01",
+      "courses": [
+        "Network Softwarization: Technologies and Enablers",
+        "Network Softwarization: Principles and Foundations",
+        "Trends in Middleware Systems"
+      ]
+    },
     {
       "institution": "Amirkabir University of Technology",
       "url": "http://aut.ac.ir",
@@ -158,8 +186,7 @@
       "startDate": "2013-06-01",
       "endDate": "2017-06-01",
       "score": "19.38/20.00"
-      
-  }
+    }
   ],
   "awards": [
     {
@@ -171,6 +198,10 @@
       "title": "Qualified for Direct Admission to graduate school (M.Sc.) of Computer Engineering",
       "date": "2021-03-01",
       "summary": "Qualified for Direct Admission to graduate school (M.Sc.) of Computer Engineering, Amirkabir University of Technology, without taking the Nationwide University Entrance Exam for M.Sc"
+    },
+    {
+      "title": "Qualified for Edward S. Rogers Sr. Dept. of Electrical and Computer Engineering Fundings",
+      "date": "2023-01-01"
     }
   ],
   "skills": [
@@ -223,6 +254,14 @@
           "Mongodb",
           "Redis"
       ]
+    },
+    {
+      "name": "Data Engineering",
+      "keywords": [
+          "Apache Spark",
+          "Apache Flink",
+          "Apache Airflow"
+      ]
     }
   ],
   "languages": [
@@ -247,6 +286,17 @@
     }
   ],
   "projects": [
+    {
+      "name": "JOS",
+      "description": "Implemented a 64-bit UNIX like operating system from scratch",
+      "keywords": [
+        "C",
+        "Operating Systems"
+      ],
+      "startDate": "2021-08-01",
+      "url": "https://github.com/NothingRealm/jos",
+      "type": "application"
+    },
     {
       "name": "Gandalf",
       "description": "Gandolf is an implemention of Raft algorithm which can be used to bring consensus over any database.",
@@ -280,6 +330,16 @@
       "startDate": "2020-09-01",
       "url": "https://github.com/NothingRealm/oira",
       "type": "application"
+    },
+    {
+      "name": "Phobia",
+      "description": "Phobia is a asynchronous multi-threaded scenario-based load-generator implemented in Rust for stress testing services.",
+      "keywords": [
+        "Rust",
+        "Load-generator"
+      ],
+      "startDate": "2022-06-01",
+      "url": "https://github.com/NothingRealm/phobia"
     }
   ],
   "meta": {
